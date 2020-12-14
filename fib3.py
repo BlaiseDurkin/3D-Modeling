@@ -57,7 +57,6 @@ r = 100
 # Define the vertices of the curve
 V = MakeVertices(n, T, r)
 vertices = np.array(V)
-# Define the 12 triangles composing the cube
 #faces = [[x for x in range(0, n)],[y for y in range(n,2*n)]]
 def MakeFaces(n, T):
     faces = []
